@@ -13,6 +13,7 @@
 		8875938B1FFD90DA005B7345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8875938A1FFD90DA005B7345 /* Assets.xcassets */; };
 		8875938E1FFD90DA005B7345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8875938C1FFD90DA005B7345 /* LaunchScreen.storyboard */; };
 		887593911FFD90DA005B7345 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 887593901FFD90DA005B7345 /* main.m */; };
+		887593991FFD9101005B7345 /* EditNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887593981FFD9101005B7345 /* EditNameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8875938D1FFD90DA005B7345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8875938F1FFD90DA005B7345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		887593901FFD90DA005B7345 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		887593971FFD9101005B7345 /* EditNameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditNameViewController.h; sourceTree = "<group>"; };
+		887593981FFD9101005B7345 /* EditNameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditNameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				8875938C1FFD90DA005B7345 /* LaunchScreen.storyboard */,
 				8875938F1FFD90DA005B7345 /* Info.plist */,
 				887593901FFD90DA005B7345 /* main.m */,
+				887593971FFD9101005B7345 /* EditNameViewController.h */,
+				887593981FFD9101005B7345 /* EditNameViewController.m */,
 			);
 			path = protocolsObjectiveC;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				887593861FFD90DA005B7345 /* ViewController.m in Sources */,
+				887593991FFD9101005B7345 /* EditNameViewController.m in Sources */,
 				887593911FFD90DA005B7345 /* main.m in Sources */,
 				887593831FFD90DA005B7345 /* AppDelegate.m in Sources */,
 			);

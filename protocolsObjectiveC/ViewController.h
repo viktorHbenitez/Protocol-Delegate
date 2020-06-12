@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EditNameViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <EditNameViewControllerDelegate>
 
+@property (weak, nonatomic) IBOutlet UILabel *lblShowText; // show text from the UILabel
 
 @end
 
